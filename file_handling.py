@@ -36,9 +36,9 @@ lines = ['First line\n','Second line\n','Third line\n']
 # except FileNotFoundError:   
 #     print('File not found')
 
-try:
-    with open('example.txt','a') as file:
-        for line in lines:
-            file.write(line)
-except FileNotFoundError:
-    print('File not found')
+# try:
+#     with open('example.txt','a') as file:
+#         for line in lines:
+#             file.write(line)
+# except FileNotFoundError:
+#     print('File not found')
